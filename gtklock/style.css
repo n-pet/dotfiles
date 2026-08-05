@@ -1,0 +1,20 @@
+@import "latte.css";
+window {
+	background-image: url("/tmp/lock.png");
+	background-size: cover;
+	color: @text;
+	font-family: "DejaVuSansMono", monospace;
+}
+
+window button, entry{
+	background-color: @overlay0;
+	border-color:     @overlay2;
+	border-width:  0.5px;
+	border-radius: 4px;	
+}
+
+window box {
+	padding: 16px;
+	background-color: @surface2;
+	box-shadow: 0 2px 12px #0000007f;
+}

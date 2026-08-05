@@ -1,0 +1,36 @@
+@import "latte.css";
+window#waybar {
+	background-color: @base;
+	color: @text;
+	font-family: "DejaVuSansMono", monospace;
+	font-size: 14px;
+}
+label.module {
+	color: @base;
+	background-color: @text;
+	padding: 8px 10px;
+}
+#temperature {
+	background-color: @green;
+}
+#language {
+	background-color: @sky;
+	font-weight: bold;
+}
+#network {
+	background-color: @blue;
+}
+#workspaces button {
+	background-color: @overlay1;
+	border-radius: 0;
+	border-width: 0;
+	padding: 8px 10px;
+}
+#window {
+	color: @text;
+	margin: 0px 10px;
+}
+#workspaces button.active {
+	font-weight: bold;
+	background-color: @sky;
+}

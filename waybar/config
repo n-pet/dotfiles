@@ -1,0 +1,22 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-right": ["temperature", "hyprland/language", "pulseaudio", "network", "clock"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format": "{:%d/%m/%y | %H:%M}"
+    },
+    "pulseaudio": {
+	"format-muted": "(muted)"
+    },
+    "hyprland/language": {
+	    "format": "{shortDescription}"
+    },
+    "network": {
+	"format-disconnected": "󰾞",
+	"format-wifi": "󰤨 | {bandwidthTotalBytes}",
+	"format-ethernet": "󰈀 | {bandwidthTotalBytes}"
+    }
+}

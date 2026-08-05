@@ -1,0 +1,28 @@
+window#waybar {
+	background-color: #090300;
+	color: #a5a2a2;
+	font-family: "Noto Sans", monospace;
+	font-size: 14px;
+}
+label.module {
+	color: #000;
+	background-color: #fff;
+	padding: 8px;
+}
+#language {
+}
+#workspaces button {
+	background-color: #eee;
+	color: #090300;
+	border-radius: 0;
+	border-width: 0;
+	padding: 8px;
+}
+#window {
+	margin: 0px 10px;
+	color: #f7f7f7;
+}
+#workspaces button.active {
+	background-color: #777;
+	color: #090300;
+}
